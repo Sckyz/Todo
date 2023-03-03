@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(93, 126, 95);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font: normal 30pt Amatic;
+}
+
+.mydiv {
+    background-color: rgb(79, 124, 67);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(24, 122, 68, 0.459);
+    text-align: center;
+    border-style: solid;
+}
+
+.divinfo {
+    background-color: rgb(79, 124, 67);
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(24, 122, 68, 0.459);
+    text-align: center;
+    border-style: solid;
+}
+
+p {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(93, 126, 95);
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #2e6d3e;
+    font-size: 18px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    border-style: solid;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background-color: rgb(71, 131, 61);
+}
+
+ul li:hover {
+    background-color: rgb(108, 131, 92);
+}
+
+ul li.checked {
+    background-color: #95e2a9;
+    text-decoration: line-through;
+}
+
+.txt {
+    border-style: solid;
+    border-color: black;
+}
+
+.addTodo {
+    border-style: solid;
+    border-color: black;
+}
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+ul li.checked {
+    background: #545554;
+    color: #000000;
+}
